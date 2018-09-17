@@ -6,10 +6,9 @@ class Shoe
   attr_reader :brand
   attr_accessor :color, :size, :material, :condition
   
-  def cobble
+  def cobble(condition)
     condition = "new"
     puts "Your shoe is as good as new!"
-    return condition
   end
   
 end
